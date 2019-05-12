@@ -1,0 +1,9 @@
+# Defining product schema.
+
+type Product {
+  id: Int!
+  name: String!
+  description: String
+  price: Float!
+  image: String!
+}

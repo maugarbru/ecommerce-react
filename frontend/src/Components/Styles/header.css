@@ -1,0 +1,26 @@
+/* unvisited link */
+a:link {
+    color: black;
+}
+  
+/* visited link */
+a:visited {
+    color: darkslategray;
+}
+  
+/* mouse over link */
+a:hover {
+    color: grey;
+}
+  
+/* selected link */
+a:active {
+    color: lightslategray;
+}
+
+.navbar .navbar-menu .navbar-start {
+    justify-content:center;
+    display: auto   ;
+    width: 100%;
+}
+

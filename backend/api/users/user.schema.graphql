@@ -1,0 +1,11 @@
+# Defining user schema.
+
+type Users {
+  id: Int!
+  name: String!
+  lastname: String!
+  email: String!
+  password: String!
+  admin: Boolean!
+  cart: [Cart]!
+}
